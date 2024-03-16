@@ -1,0 +1,103 @@
+@use '../abstract/respond' as *;
+
+body {
+    color: var(--primary-font-color);
+    font-size: 18px;
+
+    @include respond(sm) {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    @include respond(xs) {
+        padding: 1rem;
+    }
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+
+    @include respond(print) {
+        font-size: 36px;
+    }
+}
+
+h2 {
+    font-size: 32px;
+
+    @include respond(print) {
+        font-size: 24px;
+    }
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 8px;
+
+    @include respond(print) {
+        font-size: 18px;
+    }
+}
+
+
+h3:nth-of-type(5),
+h3:nth-of-type(6) {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 8px;
+
+    @include respond(print) {
+        font-size: 18px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+h2,
+h3,
+h4 {
+    text-align: left;
+}
+
+
+ul,
+ol {
+    margin-left: 1rem;
+
+    ::marker {
+        content: ' - ';
+    }
+}
+
+a {
+    color: var(--primary-hero-color);
+
+    @include respond(sm) {
+        word-wrap: break-word
+    }
+}
+
+p,
+ol,
+ul {
+    color: var(--primary-font-color);
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+    @include respond(print) {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,11 @@
+@use '../abstract/respond' as *;
+
+#skills {
+    margin-top: 1rem;
+}
+
+#skills,
+#experience,
+#education {
+    margin-bottom: 1rem;
+}

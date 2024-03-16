@@ -1,0 +1,67 @@
+@use '../abstract/mixins' as *;
+@use '../abstract/respond' as *;
+
+.contact {
+
+    h1 {
+        margin-top: 2rem;
+        position: relative;
+
+        @include respond(print) {
+            margin-top: 0;
+        }
+
+        &:after {
+            @include pseudo;
+            display: block;
+            border-bottom: 1px solid black;
+            width: 150%;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+
+            @include respond(sm) {
+                width: 100%;
+                bottom: -5px;
+            }
+
+
+        }
+
+    }
+
+    &-info {
+        margin-top: 1rem;
+        background-color: var(--primary-hero-color);
+        padding: 1.6rem 2rem;
+        margin: 1rem -100vw;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            margin: 0 99vw;
+
+
+
+            ::marker {
+                content: '';
+            }
+
+            li {
+                flex-basis: 50%;
+
+                @include respond(xs) {
+                    margin-bottom: 0.5rem;
+                }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+
+
+        }
+    }
+}

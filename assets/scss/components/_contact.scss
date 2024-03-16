@@ -36,11 +36,19 @@
         padding: 1.6rem 2rem;
         margin: 1rem -100vw;
 
+        @include respond (sm) {
+            margin: 1rem auto;
+        }
+
         ul {
             display: flex;
             flex-wrap: wrap;
             list-style-type: none;
             margin: 0 99vw;
+
+            @include respond (sm) {
+                margin: 0 auto;
+            }
 
 
 

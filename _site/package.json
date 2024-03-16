@@ -2,7 +2,7 @@
   "scripts": {
     "sass-dev": "sass --no-source-map --watch --update --style=expanded assets/scss:assets/css",
     "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css",
-    "pdf": "prince _site/index.html -o resume.pdf"
+    "pdf": "prince _site/index.html -o adrianyadavresume2024.pdf"
   },
   "dependencies": {
     "sass": "^1.72.0"

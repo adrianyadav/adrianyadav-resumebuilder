@@ -157,6 +157,7 @@ p {
 body {
   color: var(--primary-font-color);
   font-size: 18px;
+  font-family: "Montserrat", sans-serif;
 }
 @media (max-width: 56.25em) {
   body {
@@ -187,6 +188,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  font-weight: 500;
 }
 @media print {
   h2 {
@@ -217,7 +219,7 @@ h3 {
 
 h3:nth-of-type(5),
 h3:nth-of-type(6) {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h4 {

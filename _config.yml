@@ -1,3 +1,8 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Adrian Yadav" # the name of your site, e.g. ACME Corp.
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+title: 'Adrian Yadav' # the name of your site, e.g. ACME Corp.
+name: 'Aman (Adrian) Yadav'
+jekyll_admin:
+  hidden_links:
+    - posts
+  homepage: 'pages'

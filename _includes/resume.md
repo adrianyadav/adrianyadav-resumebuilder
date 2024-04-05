@@ -26,7 +26,6 @@ users.
 
 - Improve and maintain the CMS as well provide ongoing support/training for CMS users
 - Work with UI designers to create scalable reusable UI components and maintain pattern libraries
-- Improve accessibility, SEO and page performance of [www.worldnomads.com](https://www.worldnomads.com)
 - Examples of my work: [https://buy.travelinsurancedirect.com.au/](https://buy.travelinsurancedirect.com.au/) and
   [brand.worldnomads.com](https://brand.worldnomads.com)
 
@@ -41,8 +40,7 @@ I joined Intex Group Australia on a three-month contract to configure, deploy an
 
 ### IOOF | JR WEB DEVELOPER & DIGITAL ANALYST (FEB 2017 – MAY 2018)
 
-I was hired by IOOF as a junior web developer to work alongside the marketing team and manage their CMS as
-well as improve IOOF’s frontend experience.
+I was hired by IOOF as a junior web developer to work alongside the marketing team and manage their CMS a
 
 ## EDUCATION
 

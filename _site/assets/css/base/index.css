@@ -49,12 +49,12 @@ h2 {
 }
 @media print {
   h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media (max-width: 37.5em) {
   h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
@@ -65,18 +65,13 @@ h3 {
 }
 @media print {
   h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (max-width: 37.5em) {
   h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
-}
-
-h3:nth-of-type(5),
-h3:nth-of-type(6) {
-  font-weight: 500;
 }
 
 h4 {
@@ -86,12 +81,12 @@ h4 {
 }
 @media print {
   h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (max-width: 37.5em) {
   h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
